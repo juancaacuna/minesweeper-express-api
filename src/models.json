@@ -1,0 +1,23 @@
+{
+  "Users": {
+    "table": "Users",
+    "singular": "User",
+    "pk": "userId",
+    "columns": [
+      "userId",
+      "email",
+      "country"
+    ]
+  },
+  "Records": {
+    "table": "Records",
+    "singular": "Record",
+    "pk": "recordId",
+    "columns": [
+      "recordId",
+      "level",
+      "userId",
+      "seconds"
+    ]
+  }
+}
