@@ -24,8 +24,6 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "jsonix": "^2.4.1",
-    "jsonix-schema-compiler": "^2.3.9",
     "mocha": "^4.0.1",
     "supertest": "^3.0.0"
   }
