@@ -1,12 +1,15 @@
 {
   "name": "minesweeper-express-api",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.6.x",
+    "npm": "5.4.x"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "mocha $(find test -name '*.js')",
-    "postinstall": "bower install && grunt build"
+    "test": "mocha $(find test -name '*.js')"
   },
   "author": "Juan Carlos Acuña",
   "license": "MIT",
