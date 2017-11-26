@@ -3,7 +3,7 @@ const models = require('../models')
 const rt = require('./returnTypes')
 require('dotenv').config()
 
-const BASE_URL = `http://${process.env.POSTGRES_HOST}:${process.env.SERVER_PORT}/api`
+const BASE_URL = `http://${process.env.POSTGRES_HOST}:${process.env.PORT}/api`
 
 function fetchLocal(relativeURL, returnType) {
   return fetch(`${BASE_URL}${relativeURL}`)

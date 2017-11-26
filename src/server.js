@@ -16,6 +16,7 @@ app.use('/graphql', cors(), graphqlHTTP({
   schema: schema,
   graphiql: true,
 }))
+app.options('*', cors())
 
 massive(
   {
