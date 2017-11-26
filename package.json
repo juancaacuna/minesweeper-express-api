@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "mocha $(find test -name '*.js')"
+    "test": "mocha $(find test -name '*.js')",
+    "postinstall": "bower install && grunt build"
   },
   "author": "Juan Carlos Acuña",
   "license": "MIT",
