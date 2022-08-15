@@ -15,8 +15,8 @@ Take a look!
 -----
 The [API is live and running here!](https://minesweeper-express-api.herokuapp.com/api/) (hosted in [Heroku](https://www.heroku.com))
 ```
-/users: List of registered users
-/records: List of registered records
+/api/users: List of registered users
+/api/records: List of registered records
 /graphql: GraphQL interface
 ```
 
