@@ -23,7 +23,7 @@
     "graphql": "^0.11.7",
     "massive": "^4.5.0",
     "node-fetch": "^1.7.3",
-    "node-webcrypto-ossl": "^1.0.31",
+    "node-webcrypto-ossl": "^2.1.3",
     "xadesjs": "^2.0.5"
   },
   "devDependencies": {
