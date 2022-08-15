@@ -60,8 +60,8 @@ function appInit (db) {
     })
   })
 
-  console.log(`Listening on http://localhost:${process.env.PORT}`)
-  http.createServer(app).listen(process.env.PORT)
+  console.log(`Listening on http://localhost:${process.env.PORT || 80}`)
+  http.createServer(app).listen(process.env.PORT || 80)
   app.emit("appStarted")
 }
 
